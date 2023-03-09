@@ -20,3 +20,6 @@ This solution takes Pywebview with Jinja2, and loops through all files in your .
 
 Very simply, before the index file loads, main.py loops through all files in /templates/. For all files with  *.css, they get read and inserted right before the  `</header>` tag, inbetween `<style>`and `</style>`. Same thing for js happens before end of `</body>` tag. 
 bootstrap, jquery all works, just place those files in the /template/ folder (anywhere, including "/templates/assets/bootstrap", keep your file structure as is) and that code will be injected before showing pywebview. Index backups are made to preserve original and index will be restored to its original upon close. 
+
+
+![image](https://user-images.githubusercontent.com/98753696/224162869-c821b648-97e2-4ad2-88f2-82bad41fa613.png)
